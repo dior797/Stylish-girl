@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            left: float;
+            left: 50px;
+            margin: 150px;
+
+
+        }
+
+        .image {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 0.5s ease;
+            transition-timing-function: ease;
+        }
+
+        .image img {
+            width: 103%;
+            height: 103%;
+        }
+
+        .container .image:hover {
+            width: 100px;
+            height: 100px;
+            left: 300px;
+            top: 150px;
+
+        }
+
+        .container .image:hover img {
+            border-radius: 50%;
+
+        }
+
+        .content {
+            position: absolute;
+            background-color: lightpink;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            border: 4px solid;
+            box-shadow: 5px 10px 18px black;
+        }
+
+
+        #heading {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            font-weight: 40px;
+            font-size: 24px;
+        }
+
+        #paragraph {
+            margin-left: 10px;
+            text-align: center;
+        }
+
+
+
+
+        /*Secound Image */
+
+
+        .container-two {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            right: -500px;
+            top: -805px;
+            margin: 200px;
+        }
+
+        .image-two {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all .5s ease;
+            transition-timing-function: ease;
+        }
+
+        .image-two img {
+            width: 103%;
+            height: 103%;
+        }
+
+        .container-two .image-two:hover {
+            width: 100px;
+            height: 100px;
+            left: 300px;
+            top: 150px;
+
+        }
+
+        .container-two .image-two:hover img {
+            border-radius: 50%;
+
+        }
+
+        .content-two {
+            position: absolute;
+            background-color: yellow;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            border: 4px solid;
+            box-shadow: 5px 10px 18px black;
+        }
+
+        #heading-two {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            font-weight: 40px;
+            font-size: 24px;
+        }
+
+        #paragraph-two {
+            margin-left: 10px;
+            text-align: center;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="image">
+                <img src="24.jpg" alt="stylish girl" />
+            </div>
+
+            <div class="content">
+                <div class="heading">Stylish Girl</div>
+                <div class="paragraph">There are many variations of passages of Lorem Ipsum available.Lorem Ipsum is simply
+                    dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</div>
+                
+
+                
+            </div>
+        </div>
+        <br><br><br>
+
+        <div class="container-two">
+            <div class="image-two">
+                <img src="3.jpeg" alt="stylish girl" />
+            </div>
+
+            <div class="content-two">
+                <h2 id="heading-two">Stylish Girl</h2>
+                <p id="paragraph-two">There are many variations of passages of Lorem Ipsum available.Lorem Ipsum is
+                    simply
+                    dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+
+                </p>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
